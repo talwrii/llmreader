@@ -6,14 +6,22 @@ If this project gets off the ground it will likely go through multiple rounds of
 Allow people to open a document and run queries will reading from the document from a variety of sources.
 Important decisions. Wrap emacs initially? This tool is only for reading by will allow scripting.
 
+# Installing
+
+In the future there will be an installer. 
+For now, copy the code and build.
+
 # Product considerations
 * Mouse usage is important.
 * Dogfooding is important
 * Installation is important
+* I care about mac
+* I care about emacs
 * Development environment will not be clean until it needs to be
 * We will follow the literature
 * We will have guis for configuration
 
+How will be find out about product features - I need to get people to use this. 
 
 # Temporary decisions
 Wrap emacs - remove all it's features, keep code separated and then support other tools (including maybe gui tools)

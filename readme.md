@@ -1,11 +1,16 @@
 # llmreader
 The aspirations of an opensource llm tool to use while reading
-
-If this project gets of the ground it will likely go through multiple rounds of iterations.
+If this project gets off the ground it will likely go through multiple rounds of iterations.
 
 # The tool
 Allow people to open a document and run queries will reading from the document from a variety of sources.
 Important decisions. Wrap emacs initially? This tool is only for reading by will allow scripting.
+
+# Product considerations
+Mouse usage is important
+
+# Temporary decisions
+Wrap emacs - remove all it's features, keep code separated and then support other tools (including maybe gui tools)
 
 # Architecture
 * Speed of iteration is what it is all about.
@@ -13,8 +18,9 @@ Important decisions. Wrap emacs initially? This tool is only for reading by will
 * I should probably support macs.
 * I want to know what people are using this for so I can improve this.
 
-
 I will use a high level language (probably some of lisp) and then allow this to have multiple backends. I will probably target desktop initially because it is easier for people to devevelop and debug on this. 
+
+I want people on wikipedia and in academia to use this tool.
 
 # Downsides
 Requiring people to have their own gpt keys will be an issue. I might provide a service that allows me to avoid having gpt keys like zotero.
